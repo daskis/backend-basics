@@ -3,7 +3,7 @@ import mysql from "mysql"
 const POST = 5000;
 
 const connection = mysql.createConnection({
-    host: "root",
+    host: "127.0.0.1",
     user: "root",
     database: "node_basics",
     password: "Daskis009"
