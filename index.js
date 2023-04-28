@@ -2,7 +2,7 @@ import express from "express"
 import mysql from "mysql"
 import bodyParser from "body-parser";
 import multer from "multer";
-import cors from "cors"
+import cors from "cors";
 const PORT = 5000;
 const upload = multer()
 const connection = mysql.createConnection({
