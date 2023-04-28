@@ -3,6 +3,8 @@ import mysql from "mysql"
 import bodyParser from "body-parser";
 import multer from "multer";
 import cors from "cors";
+import nanoid from 'nanoid-esm';
+console.log(nanoid())
 const PORT = 5000;
 const upload = multer()
 const connection = mysql.createConnection({
